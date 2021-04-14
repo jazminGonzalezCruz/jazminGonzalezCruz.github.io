@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial IoT</title>
+    <meta name="theme-color" content="#F0DB4F">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" type="image/png" href="img/jugadores-de-futbol.png">
+    <link rel="apple-touch-icon" href="img/jugadores-de-futbol.png">
+    <link rel="apple-touch-startup-image" href="img/jugadores-de-futbol.png">
+    <link rel="manifest" href="./manifest.json">
+    <script src="./script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+    <script src="js/init.js">
+    </script>
+    <link href="css/estilos.css" rel="stylesheet">
+    <script type="module" src="cmp/mi-footer.js"></script>
+    <!-- metarial desing links-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  
+  <body>
+    <nav>
+      <div class="nav-wrapper red lighten-1">
+        <a href="#" class="brand-logo center">HISTORIAL</a>
+      </div>
+    </nav>
+    <div class="contenido">
+      <table class="responsive-table highlight centered">
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>dispositivoId</th>
+            <th>valor</th>
+            <th>timestamp</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script type="module"
+      src="js/CtrlHistorial.js">
+      </script>
+  </body>
+</html>
