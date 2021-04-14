@@ -6,19 +6,19 @@ class MiNav extends HTMLElement {
     this.innerHTML = /* html */
       `<a href="index.html">
         <span class="material-icons">
-        Aod
+        aod
       </span>
         Control IoT
       </a>
   <a href="historial.html">
       <span class="material-icons">
-      Watch_Later
+      watch_water
       </span>
         Historial
       </a>
       <a href="dispositivo.html">
        <span class="material-icons">
-        Aod
+        aod
       </span>
         Simulación de Dispositivo IoT
       </a>`;
